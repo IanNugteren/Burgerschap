@@ -1,6 +1,9 @@
+* {
+    margin: 0;
+}
+
 body ,html {
     height: 100%;
-    margin: 0;
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 400;
@@ -8,7 +11,8 @@ body ,html {
     color: #666;
 }
 
-.pimg1, .pimg2,.pimg3 {
+.pimg1, .pimg2,.pimg3, .pimg4 , .pimg5
+, .pimg6 , .pimg7{
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -19,7 +23,7 @@ body ,html {
 
 section {
     text-align: center;
-    padding: 0px 60px 10px 60px;;
+    padding: 5px 30px;
 }
 
 .pimg1 {
@@ -37,19 +41,45 @@ section {
     min-height:400px;
 }
 
+.pimg4 {
+    background-image: url('img/city4.jpeg');
+    min-height:400px;
+}
+
+.pimg5 {
+    background-image: url('img/city5.jpeg');
+    min-height:400px;
+}
+
+.pimg6 {
+    background-image: url('img/city6.jpeg');
+    min-height:400px;
+}
+
+.pimg7 {
+    background-image: url('img/city7.jpg');
+    min-height:400px;
+}
+
 #h1 {
     padding-top: 200px;;
     text-align: center;
     font-size: 64px;
     margin: 0;
-    color: #dddd;
+    color: rgba(255, 255, 255, 0.911);
 }
 
 #h2 {
+    margin-top: 25px;
     text-align: center;
     font-size: 44px;
     color: #ddd;
 }
 
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+    padding: 30px 100px;
+}
 
 
